@@ -1,4 +1,4 @@
-     body {
+    body {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -16,16 +16,15 @@
         width: 100%;
     }
 
-    .form-container .form-label {
-        text-align: left;
-        display: block;
-    }
-
-    .form-container button {
-        width: 100px;
-    }
-
     .button-group {
         display: flex;
         justify-content: space-between;
+    }
+
+    .valid-feedback {
+        display: block;
+    }
+
+    .invalid-feedback {
+        display: block;
     }
